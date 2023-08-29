@@ -1,4 +1,4 @@
-# real-time-twitter-sentiment-analysis
+# Abstract
 In the digital era, understanding the sentiment expressed within textual data has become pivotal for extracting insights from vast online conversations. Our project, titled "Real-Time Twitter Sentiment Analysis," delves into the world of sentiment analysis to decode emotions embedded in tweets. Leveraging the Sentiment140 dataset, we explore a plethora of machine learning and deep learning models to predict sentiments—ranging from Logistic Regression and Naive Bayes to innovative RNN-LSTM models enriched with keras and Gensim's embeddings. Through meticulous data preprocessing, model evaluation, and a web application interface, we present a comprehensive analysis of sentiments in real-time, empowering users to comprehend public opinions and reactions. Our project's findings underscore the interplay between data and emotions, unlocking opportunities for strategic decision-making, social trend analysis, and deeper comprehension of human communication in the digital age.
 
 # Dataset 
