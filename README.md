@@ -1,1 +1,13 @@
 # real-time-twitter-sentiment-analysis
+In the digital era, understanding the sentiment expressed within textual data has become pivotal for extracting insights from vast online conversations. Our project, titled "Real-Time Twitter Sentiment Analysis," delves into the world of sentiment analysis to decode emotions embedded in tweets. Leveraging the Sentiment140 dataset, we explore a plethora of machine learning and deep learning models to predict sentiments—ranging from Logistic Regression and Naive Bayes to innovative RNN-LSTM models enriched with keras and Gensim's embeddings. Through meticulous data preprocessing, model evaluation, and a web application interface, we present a comprehensive analysis of sentiments in real-time, empowering users to comprehend public opinions and reactions. Our project's findings underscore the interplay between data and emotions, unlocking opportunities for strategic decision-making, social trend analysis, and deeper comprehension of human communication in the digital age.
+
+# Dataset 
+Sentiment140 from kaggle. Link - https://www.kaggle.com/datasets/kazanova/sentiment140
+
+# What we did
+We used the sentiment140 dataset for our projects first phase, ie, model buiding and evaluation. In the first phase we analyzed the dataset, cleaned and preprocessed the tweets for sending the data in our models. Then, we build and analyzed 4 different machine learning models, namely, Logistic Regression, Linear SVM, Random Forest, and Naive Bayes on the multiple evaluation metrices, such as classification metrix, and ROC-AUC. Then, we build and analyzed 2 variants of RNN-LSTM model, one with normal keras embedding layer and another one with gensim's embedding layer. For deep learning models, we used tokenizer and pad_sequencing for preprocessing the data for sending to these models. 
+In the second phase we used our best model and its tokenizer to analyze the data in real time. We created a web application using streamlit library where we are getting the data from user in the form of csv or json and then sending it or cleaning and preprocessing functions, and then using our dumped model to do the prediction. The user is then provided with the real time sentiment analysis in the form of a visual dashboard.
+
+# How to use 
+File Tweets-sentiment-analysis-ml-rnn.ipynb is the notebook with sufficient information for our first phase, ie, model building and evaluation
+File app.py is the main file that to be run for launching web application. lit.py file has the helper functions for main file. rnn_model and tokenizer files are the dumped model and the tokenizer that we are using in this phase. All other static files used are also provided here.
